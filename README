@@ -1,7 +1,3 @@
-Here’s an improved and polished README for your **LB PUMP** project.  
-
----
-
 # 🚀 **LB PUMP**  
 
 LB PUMP is a dynamic platform inspired by pump.fun. This site serves as an interactive space to inform users about the project, with user-friendly features that enable customization and updates. The platform is powered by modern technologies in both frontend, backend, and smart contract development.  
@@ -87,14 +83,15 @@ Make sure you have the following installed:
    ```
 
 4. **Set Up Environment Variables**  
-   Create a `.env` file in the root directory and configure the following:  
-   ```
-   MONGO_URI=<your-mongodb-connection-string>
-   NODE_ENV=development
+Create a ```.env``` file in the root directory and configure the following:
+
+   ```makefile
+     MONGO_URI=<your-mongodb-connection-string>
+     NODE_ENV=development
    ```
 
 5. **Start the Database**  
-   Ensure MongoDB is running on your local machine or via a cloud service like MongoDB Atlas.  
+   Ensure MongoDB is running on your local machine or via a cloud service like MongoDB Atlas.
 
 ---
 
@@ -106,22 +103,22 @@ To run the **frontend** and **backend**, follow these steps:
 ```bash
 yarn dev
 ```
-Runs the development server. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.  
+Runs the development server. Open http://localhost:3000 to view it in the browser.
 
 ### **Start the Backend**  
 ```bash
 yarn start
 ```
-Starts the backend server. Ensure MongoDB is connected properly.  
 
-You can now access the project from `http://localhost:3000`.  
+Starts the backend server. Ensure MongoDB is connected properly.
+
+You can now access the project from http://localhost:3000.
 
 ---
 
-## 📁 **File Structure**  
-Here's a quick look at the project's main folder structure:  
-
-```
+## 📁 **File Structure**
+Here's a quick look at the project's main folder structure:
+```graphql
 lb-pump/  
 ├── 📂 frontend/  
 │   ├── 📂 components/        # Reusable UI components  
@@ -138,6 +135,8 @@ lb-pump/
 ├── 📄 .env                   # Environment variables (not committed)  
 └── 📄 README.md              # Project documentation  
 ```
+
+---
 
 ---
 
@@ -160,6 +159,5 @@ If you find this project useful, feel free to give it a ⭐ on GitHub.
 
 **Made with ❤️ by Lendon Bracewell**  
 
----
 
-This README provides all essential information while making the project appear professional and complete. Let me know if you'd like any adjustments or additions.
+
