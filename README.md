@@ -154,13 +154,5 @@ lb-pump/
 
 ---
 
-## 📞 **Contact**  
-
-Need help, have questions, or want to collaborate? Reach out!  
-
-- **Telegram**: [@topsecretagnt_007](https://t.me/topsecretagent_007)  
-
-If you find this project useful, feel free to give it a ⭐ on GitHub.  
-
 
 
